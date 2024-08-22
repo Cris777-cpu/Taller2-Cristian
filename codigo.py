@@ -56,8 +56,8 @@ elif Numero_3 < Numero_1 and Numero_3 < Numero_2:
     print("El numero tres es menor: ",Numero_3)
 
 
-if Numero_1 == Numero_2 and Numero_1 == Numero_3:
-    print("los tres numeros son iguales: ")
+if Numero_1 == Numero_2 and Numero_1 == Numero_3 and Numero_4 == Numero_5:
+    print("los cinco numeros son iguales: ")
 
 elif Numero_2 == Numero_3:
     print("El numero dos y el numero tres son iguales: ")
@@ -67,6 +67,9 @@ elif Numero_1 == Numero_2:
 
 elif Numero_3 == Numero_1:
     print("El numero tres y el numero uno son iguales")
+
+elif Numero_4 == Numero_5:
+    print("El numero cuatro y el numero cinco son iguales")    
 
 else: print("No hay numeros iguales")
 
