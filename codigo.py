@@ -37,6 +37,14 @@ elif Numero_2 > Numero_1 and Numero_2 > Numero_3:
 elif Numero_3 > Numero_1 and Numero_3 > Numero_2:
     print("El numero tres es mayor: ",Numero_3)
 
+if Numero_3 > Numero_1 and Numero_4 > Numero_5:
+    print("El numero uno es mayor: ",Numero_1)
+
+elif Numero_1 > Numero_4 and Numero_3 > Numero_5:
+    print("El numero dos es mayor: ",Numero_2)
+
+elif Numero_3 > Numero_1 and Numero_3 > Numero_2:
+    print("El numero tres es mayor: ",Numero_3)
 
 if Numero_1 < Numero_2 and Numero_1 < Numero_3:
     print("El numero uno es menor: ",Numero_1)
