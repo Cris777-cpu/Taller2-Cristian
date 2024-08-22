@@ -10,12 +10,23 @@ print("Este programa compara tres numeros")
 Numero_1 = 0
 Numero_2 = 0
 Numero_3 = 0
+Numero_4 = 0
+Numero_5 = 0
 
 Numero_1 = int(input("Ingrese el primer numero: "))
 
 Numero_2 = int(input("Ingrese el segundo numero: "))
 
 Numero_3 = int(input("Ingrese el tercer numero: "))
+
+Numero_4 = int(input("Ingrese el tercer numero: "))
+
+Numero_5 = int(input("Ingrese el tercer numero: "))
+
+if Numero_4 > Numero_5:
+    print("El numero es Mayor")
+
+else: print("No Hay comparacion")     
 
 if Numero_1 > Numero_2 and Numero_1 > Numero_3:
     print("El numero uno es mayor: ",Numero_1)
